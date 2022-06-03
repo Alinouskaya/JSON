@@ -1,0 +1,74 @@
+Создание репозитория в Гит хаб,
+ копирование ссылки и вставка ее в гит баш (сделать репозиторий локальным в т.ч.) - git clone
+ В папке JSON cd JSON создание файла touch new.json
+ 7. Добавить файл под гит. git add .
+8. Закоммитить файл. git commit -m "add json file"
+9. Отправить файл на внешний GitHub репозиторий. git push
+10. Отредактировать содержание файла “new.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON.
+$ vim new.json (i - insert, esc, :wq, enter)
+{
+        "Last name":"Alinouskaya",
+        "First name":"Yana",
+        "Sirname":"Aliaksandrovna",
+        "Age":26,
+        "Pet": 1,
+        "Desired salary":500
+}
+
+11. Отправить изменения на внешний репозиторий. git commit -am "added personal data" - git push
+12. Создать файл preferences.json touch preferences.json
+13. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON.
+{
+        "Favourite film":"Matrix",
+        "Favourite serial":"The Office",
+        "Favourite food":"Tom Yam",
+        "Favourite season":"spring",
+        "The country I want to visit":"Japan"
+}
+
+
+14. Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON
+
+{
+         "Basic theory (What is testing, bug reports, documentation, types, methods, testing directions, etc.) SDLC, STLC",
+         "What is the client-server architecture",
+         "HTTP methods of requests to the server",
+         "HTTP server response codes",
+         "Structures of HTTP requests and responses",
+         "What is JSON, XML. Their structure",
+         "API testing via Postman (JS, API autotests)",
+         "Removing and reading logs from an external server",
+         "Sniffing http web traffic through Charles and Fiddler",
+         "Dev Tools of web browsers (Google Chrome, FireFox)",
+         "VPN. (How it works, why it is needed, how to use it, tool options)",
+         "Mobile testing",
+         "Feature of iOS, Android, guidelines",
+         "Build iOS apps on XCode. (Those who don't have a Mac computer will just take a look)",
+         "Build Android apps on Android Studio",
+         "ADB (android device management)",
+         "Setting up proxy and vpn on iOS and Android",
+         "Interception (sniffing) of mobile traffic via Charles and Fiddler on iOS and Android",
+         "Linux command line (terminal) (copying, creating, viewing, moving files on servers without a graphical interface)",
+         "Basics of bash scripting, automation of routine tasks on the server",
+         "Access to remote servers",
+         "Basics of SQL (Create, Delete, Drop, Insert Into, Select, From, Where, Join)",
+         "Postgres database (installation, configuration and use)",
+         "Non-relational database Redis (installation, configuration and use)",
+         "Load testing in Jmeter",
+         "Scrum development methodology",
+         "Python"
+}
+
+15. Отправить сразу 2 файла на внешний репозиторий. git add . git commit -m "added two json files" git push
+16. На веб интерфейсе создать файл bug_report.json. add file - create new file - name your file...
+17. Сделать Commit changes (сохранить) изменения на веб интерфейсе. commit directly to the main branch
+18. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON. edit this file...
+{
+  "Title":"The part of the logo is not visible",
+  "Actual result":"The logo is cropped",
+  "Expected result":"The logo is displayed in full size"
+}
+19. Сделать Commit changes (сохранить) изменения на веб интерфейсе. commit directly to the main branch
+20. Синхронизировать внешний и локальный репозиторий JSON git pull 
+
+
